@@ -1,0 +1,9 @@
+#  Q.NO. 6) # write a program to print a specified list after removing the 0th 4th and 5th elements
+mylist = ["red", "green", "white", "black","pink", "yellow"]
+a = mylist[0]
+b = mylist[4]
+c = mylist[5]
+mylist.remove(a)
+mylist.remove(b)
+mylist.remove(c)
+print(mylist)
